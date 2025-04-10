@@ -9,8 +9,11 @@ enum View {
   CHAT = 'CHAT',
 }
 
-type ChatMessage = {
-  role: string
+export type ChatRole = 'system' | 'user' | 'assistant'
+export type Rolee = 'user' | 'assistant'
+
+export type ChatMessage = {
+  role: ChatRole
   content: string
 }
 
@@ -77,7 +80,7 @@ export default function Home() {
         <StartView
           chatPartner={chatPartner}
           setChatPartner={setChatPartner}
-          handleStartChat={startChat}
+          onStartChat={startChat}
         />
       )}
       {view === View.CHAT && (
