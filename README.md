@@ -18,6 +18,20 @@
 
 ### Step 3: Write a short list of what else you would do if you had to make this a full feature
 
+- Character image generation (using AI, when models allow)
+
+- Memory & context for persistent character conversations
+
+- Voice input/output with speech-to-text and text-to-speech
+
+- Typing indicator before bot replies
+
+- Multi-character chats or roleplay scenarios
+
+- Custom themes for chat styling and vibe
+
+- Export chat as PDF or image
+
 ## What am i looking for?
 
 - can you quickly write high quality code
